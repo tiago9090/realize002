@@ -7,7 +7,7 @@
     font-family: '#';
     src: url();
 }
-/* :root {
+ :root {
     --cor0: #00d084;
     --cor1: #7bdcb5 ;
     --cor2: #fcb900;
@@ -20,10 +20,95 @@
     --font-destaque:var(--cor0);
     --font-alternativa:var(--cor0);
 }
-{
+ *{
     margin: 0px;
-    padding: 0px;*/
+    padding: 0px;
+    font-size: 26px;
+    font-family: cursive;
+}
+body{
+    background-color: lightgray;
+}
 
+header{
+    min-height: 150px;
+    text-align: center;
+    background-color: var(--cor0);
+    padding-top: 40px;
+    border: 5px solid black;
+}
+ body > header > menu > ul > li > a {
+    background-color: var(--cor3);
+    color: var(--cor6);
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+ body > header  > menu > ul > li {
+    background-color: var(--cor0);
+    padding: 5px;
+    margin-left:20px ;
+    display: block;
+    display: inline-block;
+    list-style-type: none;
+   
+}
+main {
+    background-color: var(--cor1);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    border: 5px solid black;
+
+}
+main > article > a{
+    padding: 10px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: var(--cor3);
+    color: var(--cor6);
+}
+main > article > aside > a {
+    padding: 10px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: var(--cor3);
+    color: var(--cor6);
+}
+
+ body > main > p {
+    text-align: justify;
+}
+body > main >  div#lot {
+    width: 350px;
+    height: 260px;
+    display: block;
+    margin-left: 630px;
+
+}
+body > main > article > div#lit{
+    width: 350px;
+    height: 260px;
+    display: block;
+    margin-left: 500px;
+}
+body > main > article > div#lut {
+    width: 350px;
+    height: 260px;
+    display: block;
+    margin-top: -620px;
+    position: absolute;
+    margin-left: 150px;
+}
+
+div#let{
+    width: 350px;
+    height: 260px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
 div.video {
         background-color: var(--cor5);
         padding: 20px;
@@ -39,6 +124,18 @@ div.video {
         width: 90%;
         height: 90%;
     }
+aside>ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    border: 5px solid rgb(233, 224, 224);
+    background-color: #000000;
+    padding: 150px;
+    
+}
 
 
 
