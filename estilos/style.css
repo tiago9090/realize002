@@ -7,7 +7,7 @@
     font-family: '#';
     src: url();
 }
- :root {
+/* :root {
     --cor0: #00d084;
     --cor1: #7bdcb5 ;
     --cor2: #fcb900;
@@ -20,7 +20,25 @@
     --font-destaque:var(--cor0);
     --font-alternativa:var(--cor0);
 }
-/*{
+{
     margin: 0px;
-    padding: 0px;
-}*/
+    padding: 0px;*/
+
+div.video {
+        background-color: var(--cor5);
+        padding: 20px;
+        margin: 0px -20px 30px -20px;
+        padding-bottom: 50%;
+        position: relative;
+    }
+
+    div.video>iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+
+
