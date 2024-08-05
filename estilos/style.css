@@ -1,24 +1,26 @@
 @charset "utf-8";
 
-@import url();
+@import url();;
+
 
 @font-face {
     font-family: '#';
     src: url();
 }
- /*:root {
-    --cor0: # ;
-    --cor1: # ;
-    --cor2: # ;
-    --cor3: # ;
-    --cor4: # ;
-    --cor5: # ;
-    --cor6: # ;
+ :root {
+    --cor0: #00d084;
+    --cor1: #7bdcb5 ;
+    --cor2: #fcb900;
+    --cor3: #ff6900;
+    --cor4: #cf2e2e;
+    --cor5: #f78da7;
+    --cor6: #ffffff ;
+    --cor7: #000000; 
     --font-padrao:var(--cor0);
     --font-destaque:var(--cor0);
     --font-alternativa:var(--cor0);
 }
-* {
+/*{
     margin: 0px;
     padding: 0px;
 }*/
