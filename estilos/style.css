@@ -156,11 +156,11 @@ div#let{
 
   div#lut > img {
     background-size: 100%;
-    width: 370px;
+    width: 400px;
     height: 260px;
    display: block;
-    margin-top:-1000px;
-    margin-left: 20px;
+    margin-top:-900px;
+    margin-left: 0px;
    
 
 }
