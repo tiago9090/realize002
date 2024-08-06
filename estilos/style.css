@@ -144,8 +144,8 @@ body > main > article > div#lut {
     margin-top: -670px;
     margin-bottom: 50px;
     position: absolute;
-  /*  margin-left: 100px;*/
-    margin: auto;
+    margin-left: -50px;
+/*   margin: auto;*/
 }
 main img {
     width: 100%;
@@ -183,7 +183,7 @@ div#let{
     width: 600px;
     height: 300px;
     
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: -950px;
    
 
