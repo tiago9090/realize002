@@ -155,6 +155,7 @@ div#let{
 }
 
   div#lut > img {
+    background-size: 100%;
     width: 370px;
     height: 260px;
    display: block;
