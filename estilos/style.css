@@ -55,8 +55,8 @@ header{
 }
 main {
     background-color: var(--cor1);
-    max-width: 1000px;
-    min-width: 300px;
+    max-width: 800px;
+    min-width: 250px;
     margin: auto;
     border: 5px solid black;
 
@@ -86,7 +86,7 @@ main > article > aside > a  {
     margin-left: 150px;
 }
 body > main > p {
-    margin-left: 50px;
+    margin-left: 20px;
     text-align: justify;
     display: block;
     margin-top: 200px;
@@ -95,7 +95,7 @@ body > main > p {
      text-align: justify;
      display: block;
      margin-bottom: 50px;
-    margin-left: 140px;
+    margin-left: 100px;
  }
 
 
@@ -111,7 +111,7 @@ body > main > article > div#lit{
     width: 350px;
     height: 260px;
     display: block;
-    margin-left: 180px;
+    margin-left: 110px;
 }
 body > main > article > div#lut {
     width: 350px;
@@ -120,7 +120,7 @@ body > main > article > div#lut {
     margin-top: -670px;
     margin-bottom: 50px;
     position: absolute;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 main img {
     width: 100%;
@@ -137,7 +137,7 @@ div#let{
     width: 350px;
     height: 260px;
     margin-top: 60px;
-    margin-left: 150px;
+    margin-left: 110px;
 
 }
 
