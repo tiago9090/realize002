@@ -40,7 +40,7 @@ header{
  body > header > menu > ul > li > a {
     background-color: var(--cor3);
     color: var(--cor6);
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
     cursor: pointer;
 }
@@ -140,7 +140,8 @@ div#let{
     width: 350px;
     height: 260px;
     margin-top: 60px;
-    margin-left: 110px;
+  /*  margin-left: 110px;*/
+    margin: auto;
 
 }
 
@@ -153,13 +154,13 @@ div#let{
 
 }
 
-div#lut > img {
+  div#lut > img {
     width: 350px;
     height: 260px;
-    position: absolute;
-    margin-top:-920px;
-    margin-right: 50px;
-
+   display: block;
+    margin-top:-900px;
+    margin-left: 50px;
+   
 
 }
 div.video {
@@ -196,7 +197,7 @@ body > footer > a{
     border-radius: 15px;
     background-color: var(--cor3);
     color: var(--cor6);
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 
