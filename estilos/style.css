@@ -68,8 +68,13 @@ main > article > a{
     border-radius: 15px;
     background-color: var(--cor3);
     color: var(--cor6);
+    margin-left: 150px;
 }
-main > article > aside > a {
+main > article > h1 {
+    margin-left: 170px;
+    margin-top: 300px;
+}
+main > article > aside > a  {
     padding: 10px;
     width: 150px;
     border: 2px solid black;
@@ -77,30 +82,55 @@ main > article > aside > a {
     background-color: var(--cor3);
     color: var(--cor6);
 }
-
- body > main > p {
-    text-align: justify;
+ body > main > article > aside > a {
+    margin-left: 150px;
 }
-body > main >  div#lot {
+body > main > p {
+    margin-left: 50px;
+    text-align: justify;
+    display: block;
+    margin-top: 200px;
+}
+ body > main > article > p {
+     text-align: justify;
+     display: block;
+     margin-bottom: 50px;
+    margin-left: 140px;
+ }
+
+
+body > main >  div#lot > img {
     width: 350px;
     height: 260px;
     display: block;
     margin-left: 630px;
+   background-size: cover; 
 
 }
 body > main > article > div#lit{
     width: 350px;
     height: 260px;
     display: block;
-    margin-left: 500px;
+    margin-left: 180px;
 }
 body > main > article > div#lut {
     width: 350px;
     height: 260px;
     display: block;
-    margin-top: -620px;
+    margin-top: -670px;
+    margin-bottom: 50px;
     position: absolute;
     margin-left: 150px;
+}
+main img {
+    width: 100%;
+
+}
+
+main img.pequeno {
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 
 div#let{
@@ -108,6 +138,26 @@ div#let{
     height: 260px;
     margin-top: 60px;
     margin-left: 150px;
+
+}
+
+ div#lit > img {
+    width: 350px;
+    height: 360px;
+    margin-top: 60px;
+    display: block;
+    margin-right: 750px;
+
+}
+
+div#lut > img {
+    width: 350px;
+    height: 260px;
+    position: absolute;
+    margin-top:-220px;
+    margin-right: 50px;
+
+
 }
 div.video {
         background-color: var(--cor5);
@@ -143,6 +193,7 @@ body > footer > a{
     border-radius: 15px;
     background-color: var(--cor3);
     color: var(--cor6);
+    margin-left: 150px;
 }
 
 
