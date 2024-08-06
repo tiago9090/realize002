@@ -100,27 +100,30 @@ body > main > p {
 
 
 body > main >  div#lot > img {
-    width: 350px;
+   max-width: 350px;
     height: 260px;
     display: block;
-    margin-left: 630px;
+   /* margin-left: 630px;*/
+    margin: auto;
    background-size: cover; 
 
 }
 body > main > article > div#lit{
-    width: 350px;
+   max-width: 350px;
     height: 260px;
     display: block;
-    margin-left: 110px;
+   /* margin-left: 110px;*/
+    margin: auto;
 }
 body > main > article > div#lut {
-    width: 350px;
+    max-width: 350px;
     height: 260px;
     display: block;
     margin-top: -670px;
     margin-bottom: 50px;
     position: absolute;
-    margin-left: 100px;
+  /*  margin-left: 100px;*/
+    margin: auto;
 }
 main img {
     width: 100%;
@@ -154,7 +157,7 @@ div#lut > img {
     width: 350px;
     height: 260px;
     position: absolute;
-    margin-top:-220px;
+    margin-top:-920px;
     margin-right: 50px;
 
 
