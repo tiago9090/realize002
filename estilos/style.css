@@ -23,56 +23,48 @@
  *{
     margin: 0px;
     padding: 0px;
-    font-size: 26px;
-    font-family: cursive;
+    background-color: lightgray;
+   font-family: cursive;
 }
-body{
+body,html {
     background-color: lightgray;
 }
 
 header{
-    min-height: 150px;
+  background-color: gray;
+}
+header h1 {
+    padding: 10px;
     text-align: center;
-    background-color: var(--cor0);
-    padding-top: 40px;
-    border: 5px solid black;
 }
- /*body > header > menu > ul > li > a {
-    background-color: var(--cor3);
-    color: var(--cor6);
-    padding: 5px;
-    border-radius: 15px;
-    cursor: pointer;
-}
- body > header  > menu > ul > li {
-    background-color: var(--cor0);
-    padding: 5px;
-    margin-left:20px ;
-    display: block;
-    display: inline-block;
-    list-style-type: none;
-}*/
 i#burguer {
     background-color: rgba(25, 10, 10, 0.727);
-    color: #ffffff;
+    color: white;
     display: block;
     text-align: center;
     padding: 10pt;
     cursor: pointer;
 }
 i#burguer:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: white;
+    color: black;
+}
+menu {
+    display: none;
+    margin-bottom: 50px;
+}
+menu > ul {
+    list-style-type: none;
 }
 menu > ul > li > a {
     display: block;
     padding: 10px;
     background-color: rgb(87, 87, 87);
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     border-top: 2px solid black;
 }
-menu > ul > li:hover {
+menu > ul > li > a:hover {
     background-color: gray;
 }
 main {
@@ -151,42 +143,30 @@ main img {
     width: 100%;
 
 }
-
-main img.pequeno {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
 div#let{
     width: 350px;
     height: 260px;
     margin-top: 60px;
    margin-left: 70px;
    margin: auto;
-
 }
-
- div#lit > img {
+div#lit > img {
     width: 350px;
     height: 360px;
     margin-top: 60px;
     display: block;
     margin-right: 750px;
-
 }
 
- body > main > article > div#lut  {
-    border: 2px solid black;
+  body > main > article > div#lut  {
+  border: 2px solid black;
    background-image: url(../imagens/salada.png);
     background-size: 100%;
     width: 400px;
     height: 250px;
     border:50px solid black ;
     margin-left: 0px;
-    margin-top: -950px;
-   
-
+    margin-top: -880px;
 }
 div.video {
         background-color: var(--cor5);
@@ -195,8 +175,7 @@ div.video {
         padding-bottom: 50%;
         position: relative;
     }
-
-    div.video>iframe {
+ div.video>iframe {
         position: absolute;
         top: 5%;
         left: 5%;
