@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +7,66 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <title>Document</title>
+    <style>
+    :root {
+    --cor0: #2e5f4d;
+    --cor1: #7bdcb5 ;
+    --cor2: #fcb900;
+    --cor3: #ff6900;
+    --cor6: #ffffff ;
+    --cor7: #000000; 
+     }
+body {
+    background-color:  var(--cor0) ;
+}
+main {
+    background-color: #ff6900;
+    max-width: 900px;
+    min-width: 350px;
+    height: 1500px;
+    border-radius: 15px;
+}
+main > h1{
+    text-align: center;
+    color: #ff6900;
+    text-shadow: 3px 3px 4px black;
+}
+ main > article {
+        border: 15px solid white;
+        margin: 20px;
+        border-radius: 15px;
+        height: 650px;
+        background-color: #000000;
+        margin-bottom: -50px;
+        
+}
+main > article > section#flag > p {
+    text-align: justify;
+   
+    margin-top: -300px;
+}
+main > article > section#flag > h1{
+    margin-top: 300px;
+    text-align: center;
+}
+ body > main > article > section#flag {
+   text-align: justify;
+  
+   
+}
+ body > main > article > section#flag > p {
+   display: block;
+    text-indent: 50px; 
+}
+
+    </style>
 </head>
-<body>
+
                     <h1>Olá, Mundo !</h1>
                     
                     <body onresize="mudouTamanho()">
                         <header>
-                            <h1>Nossa Mesa</h1>
+                            <h1>Santiago Show Music</h1>
                             <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
                     
                     
@@ -28,10 +81,32 @@
                             </menu> <br><br>
                         </header>
             <main>
+                            <h1>Noticias de Santiago Show Music</h1>
                 <article>
-                </article>
+                 
+          
+                <section id="flag" >
+                               
+                <P>
+                                    <h1>About Santiago</h1>
+                    Santiago é formado e contabilidade , inglês , Musica, e programação
+                    de computador ,alem de ter trabalhado por 20 anos como designer de cabelo
+                    (Cabeleleiro) em Copacabana, vila Isabel, São cristovao, e tambem se apresentou
+                    em muitos lugares fazendo shows com suas canções , executando concertos de violão,
+                    guitarra e piano around the world...
+                Fã incondional de Rock , alem de ser apaixonado por musica Classica,         apaixonado
+            pela beleza feminina , é seguidor da Norte Americana "APOLONIA PONT" Uma agente financeira
+                    que se tornou conhecedora dos relacionamento romantico entre homens e mulheres.
+                     hoje em santiago se dedica a criação de softwear, Banco de dados, front-end e tudo
+                    que esta ligado ao mundo WEB.</P>
+                </section>
+            
+
+                </article><br><br>
+                    <img src="imagens/minhafoto.png" alt="" srcset="">
             </main>
 
-            <a href="pag01.html">CURIOSIDADE</a>
+            <a href="pag01.html">Santiago show music</a>
+            <script src="script.js"></script>
 </body>
 </html>
