@@ -168,15 +168,15 @@ div#lit > img {
     margin-right: 750px;
 }
 
-  body > main > article > div#lut  {
-  border: 2px solid black;
-   background-image: url(../imagens/salada.png);
-    background-size: 100%;
-    width: 400px;
-    height: 250px;
-    border:50px solid black ;
-    margin-left: 0px;
-    margin-top: -880px;
+  body > main > article > section#lut  {
+    background-color: #ff6900;
+  /*  padding: 100px;*/
+    border: 2px solid black;
+ /*  background-image: url(../imagens/salada.jpg);*/
+    width: 100%;
+    height: 550px;
+    margin-top: -650px;
+  
 }
 div.video {
         background-color: var(--cor5);
