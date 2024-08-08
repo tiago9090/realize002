@@ -67,12 +67,22 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: gray;
 }
+body > main {
+    max-width: 1200px;
+    min-width: 300px;
+    font-size: 28px;
+}
+body > main > h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
 main {
     background-color: var(--cor1);
     max-width: 900px;
     min-width: 250px;
     margin: auto;
-    border: 5px solid black;
+    border: 5px solid rgb(220, 15, 15);
 
 }
 main > article > a{
@@ -212,6 +222,16 @@ body > footer > h1 {
     color: var(--cor6);
     margin-left: 10px;
 }
-
-
+article#seg {
+    text-align: center;
+}
+ body > main >#seg > p {
+    text-align: justify;
+    margin: 5%;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+ body>main>article#seg> section#pri {
+     background-image: url(../imagens/vestido_azul.jpg);
+ }
 
