@@ -19,5 +19,8 @@ main {
     max-width: 500px;
     min-width: 320px ;
     margin-bottom: 0px;
-}  
+} 
+footer#pag {
+    margin-bottom: 150px;
+} 
 }
