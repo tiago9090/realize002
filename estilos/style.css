@@ -67,11 +67,11 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: gray;
 }
-body > main {
-    max-width: 1200px;
+    /*body > main {
+    max-width: 900px;
     min-width: 300px;
     font-size: 28px;
-}
+}*/
 body > main > h1 {
   background-color:var(--cor1) ;
   font-size: 50px;
@@ -82,10 +82,11 @@ body > main > h1 {
 
 main {
     background-color: var(--cor1);
-    max-width: 900px;
-    min-width: 250px;
+    width:800px;
     margin: auto;
     border: 5px solid rgb(220, 15, 15);
+    padding: 10PX;
+   
 
 }
 main > article > a{
@@ -184,7 +185,7 @@ div#lit > img {
 div.video {
         background-color: var(--cor5);
         padding: 20px;
-        margin: 0px -20px 30px -20px;
+        margin: 0px -15px 30px -15px;
         padding-bottom: 50%;
         position: relative;
     }
@@ -194,6 +195,7 @@ div.video {
         left: 5%;
         width: 90%;
         height: 90%;
+       
     }
 aside>ul {
     list-style-type: '\2714\00A0\00A0';
