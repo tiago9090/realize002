@@ -82,7 +82,9 @@ body > main > h1 {
 
 main {
     background-color: var(--cor1);
-    width:800px;
+    width:400px;
+    height: 3000px;
+    
     margin: auto;
     border: 5px solid rgb(220, 15, 15);
     padding: 10PX;
@@ -127,15 +129,15 @@ body > main > p {
  }
 
 
-body > main >  div#lot > img {
+/*body > main >  div#lot > img {
    max-width: 350px;
     height: 260px;
     display: block;
-   /* margin-left: 630px;*/
+   margin-top: 1650px;
     margin: auto;
    background-size: cover; 
 
-}
+}*/
 body > main > article > div#lit{
    max-width: 350px;
     height: 260px;
@@ -147,12 +149,14 @@ body > main > article > div#lut {
     max-width: 350px;
     height: 260px;
     display: block;
-    margin-top: -670px;
+    margin-top: 970px;
     margin-bottom: 50px;
     position: absolute;
     margin-left: -50px;
 /*   margin: auto;*/
 }
+
+
 main img {
     width: 100%;
 
@@ -160,7 +164,7 @@ main img {
 div#let{
     width: 350px;
     height: 260px;
-    margin-top: 60px;
+    margin: 60px;
    margin-left: 70px;
    margin: auto;
 }
@@ -168,6 +172,7 @@ div#lit > img {
     width: 350px;
     height: 360px;
     margin-top: 60px;
+    margin-bottom: 140px;
     display: block;
     margin-right: 750px;
 }
@@ -179,7 +184,8 @@ div#lit > img {
  /*  background-image: url(../imagens/salada.jpg);*/
     width: 100%;
     height: 550px;
-    margin-top: -650px;
+    margin-top: -500px;
+    margin-bottom: 45px;
   
 }
 div.video {
@@ -198,12 +204,15 @@ div.video {
        
     }
 aside>ul {
+    padding-top: 100px;
+    margin-top: 40px;
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
 }
 
 footer {
+    margin-top: 100px;
     border: 5px solid rgb(233, 224, 224);
     background-color: #000000;
     padding: 150px;
