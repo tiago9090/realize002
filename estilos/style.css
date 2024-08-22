@@ -50,6 +50,7 @@ i#burguer:hover {
     color: black;
 }
 menu {
+    width: 100%;
     display: none;
     margin-bottom: 50px;
     padding-right: -250px;
