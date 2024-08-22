@@ -52,6 +52,7 @@ i#burguer:hover {
 menu {
     display: none;
     margin-bottom: 50px;
+    padding-right: -150px;
 }
 menu > ul {
     list-style-type: none;
