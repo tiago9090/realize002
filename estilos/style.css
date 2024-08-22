@@ -86,7 +86,7 @@ main {
     height: 3000px;
     margin: auto;
     border: 5px solid rgb(220, 15, 15);
-    padding: 10PX;
+    padding: 0PX;
    
 
 }
@@ -128,8 +128,8 @@ body > main > p {
  }
 
 
-/*body > main >  div#lot > img {
-   max-width: 350px;
+body > main >  div#lot > img {
+    width: 350px;
     height: 260px;
     display: block;
    margin-top: 1650px;
